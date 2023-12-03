@@ -18,7 +18,7 @@ function onZoom1(e) {
     img1.style.transformOrigin = `${x}px ${y}px`;
     img1.style.transform = "scale(2.8)";
 }
-function offZoom(e) {
+function offZoom1(e) {
     img1.style.transformOrigin = `center center`;
     img1.style.transform = "scale(1)";
 }
