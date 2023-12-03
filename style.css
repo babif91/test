@@ -1,0 +1,83 @@
+body{
+    background-color: #000000;
+}
+div.container{
+    background-color: #FFFFFF;
+    width: 400px;
+    min-height: 300px;
+    border: 5px #5c5c5c;
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    display: block;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(78, 78, 78);
+    font-size: large;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 5px;
+    border-radius: 25px;
+}
+p {
+    font-size: xxx-large;
+    font-family: "Permanent Marker", Georgia, 'Times New Roman', Times, serif;
+}
+input + span {
+    position: relative;
+  }
+  
+  input + span::before {
+    position: absolute;
+    right: -20px;
+    top: 5px;
+  }
+  
+  input:invalid {
+    border: 2px solid red;
+  }
+  
+  input:invalid + span::before {
+    content: "✖";
+    color: red;
+  }
+  
+  input:valid + span::before {
+    content: "✓";
+    color: green;
+  }
+  #submitbutton{
+    display: center;
+    padding:0.5em 3em;
+    border:0.16em solid #919191;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#383838;
+    text-align:center;
+    transition: all 0.15s;
+    }
+    #submitbutton:hover{
+    color:#009639;
+    border-color:#009639;
+    }
+    #submitbutton:active{
+    color:#383838;
+    border-color:#BBBBBB;
+    }
+    @media all and (max-width:30em){
+    #submitbutton{
+    display:block;
+    margin:0.4em auto;
+    }
+    }
