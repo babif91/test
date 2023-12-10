@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background: linear-gradient(#000000, #494949) no-repeat;
+  padding: 1rem;
+  background: linear-gradient(#000000, #747474) no-repeat;
   background-color: #000000;
   min-height: 100vh;
     display: flex;
@@ -34,7 +35,7 @@ body {
   #title {
     font-family: 'Permanent Marker';
     display: flex;
-    font-size: 30px;
+    font-size: 60px;
     color: aliceblue;
     justify-content: center;
     border: 5px;
