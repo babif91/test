@@ -34,6 +34,10 @@ p {
     font-size: xxx-large;
     font-family: "Permanent Marker", Georgia, 'Times New Roman', Times, serif;
 }
+
+input {
+  accent-color: #289231;
+}
 input + span {
     position: relative;
   }
