@@ -3,7 +3,7 @@ video {
     left: 0px;
     top: 0px;
     width: 100%;
-    height: 100%;
+    height: 60%;
     object-fit: cover;
     overflow: hidden;
 }
@@ -27,8 +27,8 @@ video {
 }
 
 .clip-text-video_text p {
-    font-size: 13vw;
-    line-height: 1;
+    font-size: 18vw;
+    line-height: 0;
     font-weight: 500;
     font-family: Impact,'Arial Narrow Bold', sans-serif;
     
