@@ -1,5 +1,9 @@
 body{
+    margin: 0;
+    background: linear-gradient(#000000, #ffffff) no-repeat;
     background-color: #000000;
+    min-height: 100vh;
+    
 }
 div.container{
     background-color: #FFFFFF;
