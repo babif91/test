@@ -1,21 +1,36 @@
 body {
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 #container1 {
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
     height: 500px;
     width: 500px;
     overflow: hidden;
+    float: left;
  }
 #container2 {
       box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
       height: 500px;
       width: 500px;
       overflow: hidden;
+      float: left;
   }
   img {
     transform-origin: center center;
     object-fit: cover;
     height: 100%;
     width: 100%;
+  }
+  #info {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: large;
+    color: aliceblue;
+  }
+  #title {
+    font-family: 'Permanent Marker';
+    display: flex;
+    font-size: 30px;
+    color: aliceblue;
   }
