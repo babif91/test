@@ -125,8 +125,8 @@ input + span {
     .nav {
       position: fixed;
       width: 100%;
-      height: 100%;
-      background-color: #000000;
+      height:30%;
+      background-color: #474747;
       top: -100%; left: 0; right: 0; bottom: 0;
       overflow: hidden;
       transition: all 0.3s ease-in-out;
