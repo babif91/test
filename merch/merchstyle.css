@@ -62,6 +62,12 @@ body {
   #info:hover {
     text-shadow: red -3px 0, cyan 3px 0;
   }
+  #info2:hover {
+    text-shadow: red -3px 0, cyan 3px 0;
+  }
+  #info3:hover {
+    text-shadow: red -3px 0, cyan 3px 0;
+  }
   #toggle {
     display: none;
   }

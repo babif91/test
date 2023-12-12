@@ -44,12 +44,8 @@ function offZoom2(e) {
 
 //img 3 function//
 function onZoom3(e) {
-    const x = e.clientX - e.target.offsetLeft;
-    const y = e.clientY - e.target.offsetTop;
+    const x = e.clientX - container3.getBoundingClientRect().left;
+    const y = e.clientY - container3.getBoundingClientRect().top;
     img3.style.transformOrigin = `${x}px ${y}px`;
     img3.style.transform = "scale(2.8)";
-}
-function offZoom3(e) {
-    img3.style.transformOrigin = `center center`;
-    img3.style.transform = "scale(1)";
 }
