@@ -5,10 +5,9 @@ body {
   background-color: #000000;
   min-height: 100vh;
   display: grid;
-  align-items: center;
 }
 .info {
-  display: relative;
+ position: relative;
   color: white;
   font-family: 'Permanent Marker';
   font-size: xx-large;
