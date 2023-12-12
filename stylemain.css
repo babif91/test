@@ -27,7 +27,7 @@ video {
 }
 
 .clip-text-video_text p {
-    font-size: 18vw;
+    font-size: 20vw;
     line-height: 0;
     font-weight: 500;
     font-family: Impact,'Arial Narrow Bold', sans-serif;
@@ -36,7 +36,7 @@ video {
 .button{
     display: flex;
     padding:0.5em 3em;
-    border:0.16em solid #FFFFFF;
+    border:0.16em solid #7a7a7a;
     margin:0 0.3em 0.3em 0;
     box-sizing: border-box;
     text-decoration:none;

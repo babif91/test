@@ -42,7 +42,7 @@ body {
   #title {
     font-family: 'Permanent Marker';
     color: aliceblue;
-    font-size: 60px;
+    font-size: 70px;
   }
   #title:hover {
     text-shadow: red -3px 0, cyan 3px 0;
