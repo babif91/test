@@ -34,7 +34,7 @@ body {
     height: 100%;
     width: 100%;
   }
-  #info {
+  #info1 {
     font-family: 'Permanent Marker';
     font-size:xx-large;
     color: aliceblue;
@@ -59,7 +59,7 @@ body {
   #title:hover {
     text-shadow: red -3px 0, cyan 3px 0;
   }
-  #info:hover {
+  #info1:hover {
     text-shadow: red -3px 0, cyan 3px 0;
   }
   #info2:hover {
