@@ -15,7 +15,7 @@ container2.addEventListener("mouseover", onZoom2);
 container2.addEventListener("mouseleave", offZoom2);
 
 container3.addEventListener("mousemove", onZoom3);
-container3.addEventListener("moveover", onZoom3);
+container3.addEventListener("mouseover", onZoom3);
 container3.addEventListener("mouseleave", offZoom3);
 
 //img 1 function//
