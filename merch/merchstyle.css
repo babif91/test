@@ -1,21 +1,23 @@
 body {
-  margin: 0;
+  margin: 10px;
   padding: 1rem;
   background: linear-gradient(#000000, #747474);
   background-color: #000000;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  align-items: center;
 }
-
-
+.info {
+  display: relative;
+  color: white;
+  font-family: 'Permanent Marker';
+  font-size: xx-large;
+}
 #container1 {
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
     height: 500px;
     width: 500px;
     overflow: hidden;
-   
  }
 #container2 {
       box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
@@ -37,38 +39,16 @@ body {
     height: 100%;
     width: 100%;
   }
-  #info1 {
-    font-family: 'Permanent Marker';
-    font-size:xx-large;
-    color: aliceblue;
-  }
-  #info2 {
-    font-family: 'Permanent Marker';
-    font-size:xx-large;
-    color: aliceblue;
-  }
-  #info3 {
-    font-family: 'Permanent Marker';
-    font-size:xx-large;
-    color: aliceblue;
-  }
+  
   #title {
     font-family: 'Permanent Marker';
-    display: flex;
-    font-size: 60px;
     color: aliceblue;
-    justify-content: center;
+    font-size: 60px;
   }
   #title:hover {
     text-shadow: red -3px 0, cyan 3px 0;
   }
-  #info1:hover {
-    text-shadow: red -3px 0, cyan 3px 0;
-  }
-  #info2:hover {
-    text-shadow: red -3px 0, cyan 3px 0;
-  }
-  #info3:hover {
+  .info:hover {
     text-shadow: red -3px 0, cyan 3px 0;
   }
   #toggle {
