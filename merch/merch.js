@@ -1,6 +1,6 @@
 const container1 = document.getElementById("container1");
 const container2 = document.getElementById("container2");
-const container3 = document.getElementById("container2");
+const container3 = document.getElementById("container3");
 
 const img1 = container1.querySelector("img");
 const img2 = container2.querySelector("img");
@@ -49,7 +49,7 @@ function onZoom3(e) {
     img3.style.transformOrigin = `${x}px ${y}px`;
     img3.style.transform = "scale(2.8)";
 }
-function offZoom2(e) {
+function offZoom3(e) {
     img3.style.transformOrigin = `center center`;
     img3.style.transform = "scale(1)";
 }
