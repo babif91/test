@@ -1,32 +1,35 @@
 body {
   margin: 0;
-  padding: 2rem;
+  padding: 1rem;
   background: linear-gradient(#000000, #747474);
   background-color: #000000;
   min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
+
+
 #container1 {
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
     height: 500px;
     width: 500px;
     overflow: hidden;
-    float: left;
+   
  }
 #container2 {
       box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
       height: 500px;
       width: 500px;
       overflow: hidden;
-      float: left;
+      
   }
 #container3 {
       box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
       height: 500px;
       width: 500px;
       overflow: hidden;
-      float: left;
+      
   }
   img {
     transform-origin: center center;
